@@ -1,6 +1,6 @@
 # nicole cranon <nicole.cranon@ucdenver.edu>
 # csci 4640, fall 2015
-# assignment 3 - microcompiler - a simple adhoc compiler
+# homework 4 - universal scanner
 # makefile
 
 CC=g++ -std=c++11
