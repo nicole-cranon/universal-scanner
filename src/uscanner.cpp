@@ -31,7 +31,7 @@ namespace scanner {
 		std::ifstream readFile;
 		readFile.open(transitionTable);
 
-		if (!readFile.good() || readFile == NULL) {
+		if (!readFile.good()) {
 			std::cerr << "\nError reading transition table " << transitionTable << ".\n";
 			exit (1);
 		}
@@ -365,7 +365,7 @@ namespace scanner {
 		std::ifstream readFile;
 		readFile.open(actionTableFile);
 
-		if (!readFile.good() || readFile == NULL) {
+		if (!readFile.good()) {
 			std::cerr << "\nError reading action table " << actionTableFile << ".\n";
 			exit (1);
 		}

@@ -16,7 +16,7 @@ int main (int argc, char* argv[]) {
 	// argv[1] := the program to be read
 	scanner::infile.open (argv[1]);
 
-	if (!scanner::infile.good() || scanner::infile == NULL) {
+	if (!scanner::infile.good()) {
 		std::cerr << "\nError: Could not open provided file!\n";
 		exit(1);
 	}
